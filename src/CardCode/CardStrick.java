@@ -14,7 +14,6 @@ public class CardStrick{
      */
     public static void main(String args[]) {
         // TODO code application logic here
-        
         System.out.prinln("the card suit and value are: ");
     }
 }
