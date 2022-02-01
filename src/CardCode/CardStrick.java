@@ -55,5 +55,9 @@ public class CardStrick{
         CardStrick c = new CardStrick();
         c.setCardValue(3);
         System.out.println(c.toString());
+        
+        CardStrick c1 = new CardStrick();
+        c1.setCardValue(2);
+        System.out.println(c1.toString());
     }
 }
