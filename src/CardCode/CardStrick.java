@@ -17,11 +17,8 @@ public class CardStrick{
         this.cardSuit = cardSuit;
     }
 
-    public CardStrick(int cardValue) {
-        this.cardValue = cardValue;
-    }
+    public CardStrick() {}
     
-
     public int getCardValue() {
         return cardValue;
     }
@@ -51,7 +48,7 @@ public class CardStrick{
     
     public static void main(String args[]) {
         // TODO code application logic here
-        CardStrick c = new CardStrick(2);
-        System.out.println("The cardValue is: "+ cardValue + " The cardSuit is: "+ cardSuit);
+        CardStrick c = new CardStrick();
+        c.setCardValue(2);
     }
 }
