@@ -52,5 +52,6 @@ public class CardStrick{
     public static void main(String args[]) {
         // TODO code application logic here
         CardStrick c = new CardStrick(2);
+        System.out.println("The cardValue is: "+ cardValue + " The cardSuit is: "+ cardSuit);
     }
 }
