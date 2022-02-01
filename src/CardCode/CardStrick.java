@@ -46,9 +46,14 @@ public class CardStrick{
         this.cardSuit = cardSuit;
     }
     
+    public String toString(){
+        return "The cardValue is: "+ cardValue + " The cardSuit is: "+ cardSuit;
+    }
+    
     public static void main(String args[]) {
         // TODO code application logic here
         CardStrick c = new CardStrick();
-        c.setCardValue(2);
+        c.setCardValue(3);
+        System.out.println(c.toString());
     }
 }
